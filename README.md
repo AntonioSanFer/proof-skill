@@ -5,6 +5,10 @@ Two Claude Code skills that produce visual proof of a change:
 - **`/proof`**: screenshots plus a raw video of the flow, with Playwright's own animated pointer and action labels. This is evidence: if the feature is broken, the proof shows it.
 - **`/proof-demo`**: the same flow made pretty. It runs slowly, with an eased cursor and click ripples, types at human speed, adds title cards and an auto-zoom camera that follows the action, and frames the page as a 1080p window on a gradient.
 
+![/proof-demo output for the saucedemo checkout example](docs/demo.gif)
+
+*`/proof-demo` on [`examples/saucedemo-checkout.mjs`](examples/saucedemo-checkout.mjs), sped up 1.5×. [Full-quality MP4](docs/demo.mp4).*
+
 Both use one engine, `skills/proof/scripts/proofkit.mjs`. Claude writes a small flow file and the engine runs it in either mode:
 
 ```js
