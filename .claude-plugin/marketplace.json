@@ -1,0 +1,14 @@
+{
+  "name": "proof-skill",
+  "owner": { "name": "AntonioSanFer", "url": "https://github.com/AntonioSanFer" },
+  "description": "Screenshots, recordings and polished demo videos of the feature Claude just built.",
+  "plugins": [
+    {
+      "name": "proof",
+      "source": "./",
+      "description": "/proof: screenshots + video of the flow. /proof-demo: the same flow as a polished demo video.",
+      "category": "productivity",
+      "keywords": ["screenshots", "video", "demo", "playwright"]
+    }
+  ]
+}

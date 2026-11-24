@@ -1,0 +1,10 @@
+{
+  "name": "proof",
+  "version": "0.1.0",
+  "description": "Visual proof of the feature you just built: /proof records screenshots and a video of the flow; /proof-demo turns it into a polished demo with an eased cursor, auto-zoom camera and a framed 1080p window.",
+  "author": { "name": "AntonioSanFer", "url": "https://github.com/AntonioSanFer" },
+  "repository": "https://github.com/AntonioSanFer/proof-skill",
+  "license": "MIT",
+  "keywords": ["screenshots", "video", "demo", "playwright", "pr"],
+  "skills": ["./skills/proof", "./skills/proof-demo"]
+}

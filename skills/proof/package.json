@@ -1,0 +1,13 @@
+{
+  "name": "proof",
+  "version": "1.0.0",
+  "description": "Engine for the proof and proof-demo Claude Code skills",
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "playwright": "^1.65.1"
+  },
+  "private": true
+}
